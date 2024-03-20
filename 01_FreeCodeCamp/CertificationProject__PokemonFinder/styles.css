@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  margin: 2rem;
+}
+
+.container {
+  width: clamp(20rem, 80vw + 2rem, 25rem);
+  margin-inline: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input__wrapper {
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#search-input {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+
+#search-button {
+  padding: 1rem 2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#pokemon-info {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-top: 2rem;
+  display: none;
+  flex-direction: column;
+}
+
+#pokemon-info h2 {
+  text-align: center;
+}
